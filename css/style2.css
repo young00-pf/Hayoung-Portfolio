@@ -1,0 +1,44 @@
+@charset "utf-8";
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+div img {
+  margin: 0 auto;
+  display: block;
+}
+div video {
+  width: 80%;
+  margin: 50px auto;
+  display: block;
+}
+
+.fixed {
+  width: 56px;
+  position: fixed;
+  right: 100px;
+  bottom: 100px;
+}
+.fixed img {
+  width: 100%;
+}
+
+.fixed:hover {
+  opacity: 0.8;
+}
+
+.fixed2 {
+  width: 56px;
+  position: fixed;
+  right: 100px;
+  bottom: 40px;
+}
+.fixed2 img {
+  width: 100%;
+}
+
+.fixed2:hover {
+  opacity: 0.8;
+}
